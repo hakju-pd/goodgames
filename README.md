@@ -10,7 +10,7 @@ pip install tk
 ```
 Danach kannst du das Projekt starten indem du goodgames.py ausführst:
 
-Im Projekt müssen alle Pflichtaufgaben (50 Punkte) implentiert werden um das Projekt positiv abzuschließen.
+Im Projekt müssen alle Pflichtaufgaben (40 Punkte) implentiert werden um das Projekt positiv abzuschließen.
 
 Um dann eine bessere Note zu erhalten, kannst du zusätzlich noch optionale Aufgaben implementieren.
 
@@ -31,12 +31,12 @@ Für das Projekt können alle Hilfsmittel verwendet werden, jedoch wird bei der 
 
 Die Pflichtaufgaben sind im Code mit TODO: markiert. Füge dort den benötigten Code ein.
 
-1. Spiele in CSV-Datei speichern** (10 Punkte)
+1. **Spiele in eine CSV-Datei speichern** (10 Punkte)
    - Implementiere die Funktion "save_to_csv" in backend.py.
    - Diese Funktion wird jedes mal aufgerufen, wenn ein Spiel hinzugefügt wird.
    - Die Funktion soll die Spieleliste mit einer CSV-Datei synchronisieren.
 
-2. Spiele aus CSV-Datei laden** (10 Punkte)
+2. **Spiele aus einer CSV-Datei laden** (10 Punkte)
    - Implementiere die Funktion "load_from_csv" in backend.py.
    - Diese Funktion wird jedes mal aufgerufen, wenn das Programm gestartet wird.
    - Die Funktion soll die Spieleliste mit einer CSV-Datei synchronisieren.
@@ -53,15 +53,16 @@ Die Pflichtaufgaben sind im Code mit TODO: markiert. Füge dort den benötigten 
    - Erstelle mindestens 3 weitere sinnvolle Testfälle für den Backend-Code
    - Tests müssen verschiedene Szenarien und Randfälle abdecken
 
-## Optionale Aufgaben (insgesamt 70 Punkte)
+## Optionale Aufgaben (insgesamt 60 Punkte)
 
 1. **Suchfunktion nach Namen** (10 Punkte)
    - Implementierung einer Spielesuche nach Titel
    - Erstelle eine zweite Suchleiste, wie die des Filters, die nach dem Namen des Spiels sucht
 
-3. **Trophäen-System** (5 Punkte)
-   - Tracking von Spielefortschritt durch Trophäen
+3. **Fortschritt-System** (10 Punkte)
+   - Tracking des Spielefortschritts in Prozent
    - Für jedes Spiel sollte ein Trophäenfortschritt von 0-100% gespeichert werden
+   - Der Fortschritt für jedes Spiel sollte upgedated werden können.
    - In den Spieldetails sollen die Prozente angezeigt werden
 
 4. **Logo Integration** (5 Punkte)
@@ -89,5 +90,5 @@ Die Pflichtaufgaben sind im Code mit TODO: markiert. Füge dort den benötigten 
 
 ## Gesamtpunktzahl
 - Pflichtaufgaben: 50 Punkte
-- Optionale Aufgaben: 70 Punkte
-- Maximal erreichbare Punktzahl: 120 Punkte
+- Optionale Aufgaben: 60 Punkte
+- Maximal erreichbare Punktzahl: 110 Punkte
